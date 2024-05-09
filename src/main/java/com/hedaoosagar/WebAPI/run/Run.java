@@ -17,8 +17,8 @@ public record Run(
 ) {
 
     public Run {
-//        if (!endedOn.isAfter(startedOn)) {
-//            throw new IllegalArgumentException("Completed On must be after Started On");
-//        }
+        if (!endedOn.isAfter(startedOn)) {
+            throw new IllegalArgumentException("Completed On must be after Started On");
+        }
     }
 }
