@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS Run;
+
 CREATE TABLE IF NOT EXISTS Run
 (
     id         INT          NOT NULL,
